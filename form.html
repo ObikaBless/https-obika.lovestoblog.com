@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <header>Create New Record </header>
+        <form action="">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">General Information</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Unique Code</label>
+                            <input style="border: none; width: 80px;" type="text" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Name</label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sex</label>
+                            <select class="input-field" name="" id="">
+                                <option value="male">--Select gender--</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Phone</label>
+                            <input type="tel" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                        
+                        
+                    </div>
+                    <hr id="hr3">
+                    <span class="title">Appointment Information</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Appointment Date</label>
+                            <input type="date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>First Time</label>
+                            <select class="input-field" name="" id="">
+                                <option value="male">--Select--</option>
+                                <option value="male">No</option>
+                                <option value="female">Yes</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Request Date</label>
+                            <input type="date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Appointment Status</label>
+                            <select class="input-field" name="" id="">
+                                <option value="male">--Select Status--</option>
+                                <option value="male">Pending</option>
+                                <option value="female">Passed</option>
+                                <option value="female">Rescheduled</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Appointment Time</label>
+                            <input placeholder="AM" style="border: none; width: 120px; text-align: end;" type="text" required>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <span class="title">Address Information</span>
+                    <div  class="fles1">
+                        <div class="input-field">
+                            <label>Address 1</label>
+                            <input class="field" type="text" required>
+                        </div>
+    
+                        <div class="input-field">
+                            <label>City</label>
+                            <input class="field" type="text" required>
+                        </div>
+                    </div>
+                    <span>Notes</span>
+                    <div  class="fles1">
+                        <div class="input-field">
+                            <label> Before Appointment</label>
+                            <textarea class="field notes" type="text" required></textarea>
+                        </div>
+    
+                        <div class="input-field">
+                            <label>After Appointment</label>
+                            <textarea class="field notes" type="text" required></textarea>
+                        </div>
+                    </div>
+                    
+
+                    <button class="savebtn">
+                        <span class="btntext">Save</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
